@@ -6,7 +6,7 @@
   "input": {
     "language": "Solidity",
     "sources": {
-      "contracts/NFT.sol": {
+      "contracts/WildEarthNFT.sol": {
         "content": "// SPDX-License-Identifier: BUSL-1.1\n\npragma solidity 0.8.3;\n\ncontract NFT {}\n"
       }
     },
@@ -30,9 +30,7 @@
             "devdoc",
             "userdoc"
           ],
-          "": [
-            "ast"
-          ]
+          "": ["ast"]
         }
       },
       "metadata": {
@@ -42,7 +40,7 @@
   },
   "output": {
     "contracts": {
-      "contracts/NFT.sol": {
+      "contracts/WildEarthNFT.sol": {
         "NFT": {
           "abi": [],
           "devdoc": {
@@ -75,7 +73,7 @@
             },
             "methodIdentifiers": {}
           },
-          "metadata": "{\"compiler\":{\"version\":\"0.8.3+commit.8d00100c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/NFT.sol\":\"NFT\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/NFT.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity 0.8.3;\\n\\ncontract NFT {}\\n\",\"keccak256\":\"0x6f5538c142f1242280ac76da21ba62d252e25e52087cbd867dd1a9c6a19da0e7\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
+          "metadata": "{\"compiler\":{\"version\":\"0.8.3+commit.8d00100c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/WildEarthNFT.sol\":\"NFT\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/WildEarthNFT.sol\":{\"content\":\"// SPDX-License-Identifier: BUSL-1.1\\n\\npragma solidity 0.8.3;\\n\\ncontract NFT {}\\n\",\"keccak256\":\"0x6f5538c142f1242280ac76da21ba62d252e25e52087cbd867dd1a9c6a19da0e7\",\"license\":\"BUSL-1.1\"}},\"version\":1}",
           "storageLayout": {
             "storage": [],
             "types": null
@@ -89,13 +87,11 @@
       }
     },
     "sources": {
-      "contracts/NFT.sol": {
+      "contracts/WildEarthNFT.sol": {
         "ast": {
-          "absolutePath": "contracts/NFT.sol",
+          "absolutePath": "contracts/WildEarthNFT.sol",
           "exportedSymbols": {
-            "NFT": [
-              2
-            ]
+            "NFT": [2]
           },
           "id": 3,
           "license": "BUSL-1.1",
@@ -103,11 +99,7 @@
           "nodes": [
             {
               "id": 1,
-              "literals": [
-                "solidity",
-                "0.8",
-                ".3"
-              ],
+              "literals": ["solidity", "0.8", ".3"],
               "nodeType": "PragmaDirective",
               "src": "38:22:0"
             },
@@ -118,9 +110,7 @@
               "contractKind": "contract",
               "fullyImplemented": true,
               "id": 2,
-              "linearizedBaseContracts": [
-                2
-              ],
+              "linearizedBaseContracts": [2],
               "name": "NFT",
               "nameLocation": "71:3:0",
               "nodeType": "ContractDefinition",

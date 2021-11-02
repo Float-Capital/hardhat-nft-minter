@@ -1,6 +1,6 @@
 # Mint NFT scripts
 
-Tool intended for minting NFT's on polygon with oz & hardhat
+Tool intended for minting NFTs on polygon with oz & hardhat
 
 ## Scripts
 
